@@ -14,10 +14,10 @@ This repository contains the frontend implementation of the Plagiarism Detector 
 
 ## Features
 
-- **Student Dashboard**: View courses, assignments, and upcoming tasks.
-- **Profile Management**: View and update profile information.
-- **Timeline**: View and manage tasks and assignments.
-- **Assignment Upload**: Upload assignments for plagiarism detection.
+- **Student Dashboard**: View Enrolled courses, assignments, and upcoming tasks.
+- **Profile Management**: View profile information.
+- **Timeline**: View pending tasks and assignments of current month.
+- **Assignment Upload**: Upload solution against specific assignments.
 - **Notifications**: Receive notifications about assignments and tasks.
 
 ## Screens
@@ -27,7 +27,7 @@ This repository contains the frontend implementation of the Plagiarism Detector 
 - **Login Screen**: Allows students to log in to the application.
 - **Dashboard**: Displays courses, assignments, and upcoming tasks.
 - **Profile**: Displays student profile information.
-- **Timeline**: Displays tasks and assignments in a timeline view.
+- **Timeline**: Displays tasks and assignments in a timeline view of current month.
 - **Assignment Upload**: Allows students to upload assignments.
 - **Notifications**: Displays notifications about assignments and tasks.
 
@@ -36,6 +36,8 @@ This repository contains the frontend implementation of the Plagiarism Detector 
 - **Login Screen**: Allows teachers to log in to the application.
 - **Dashboard**: Displays courses and assignments.
 - **Profile**: Displays teacher profile information.
+- **Submitted Assignments List**: Displays all students' names, IDs, and their plagiarism records (if any). 
+- **Assignment Details**: View the assignments submitted by students, including plagiarism similarity scores. Access a detailed report on copied content in the drawer.
 
 ## Installation
 
